@@ -1,0 +1,750 @@
+2023/03/13 05:19:20 [notice] 1#1: using the "epoll" event method
+2023/03/13 05:19:20 [notice] 1#1: nginx/1.21.5
+2023/03/13 05:19:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 05:19:20 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 05:19:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 05:19:20 [notice] 1#1: start worker processes
+2023/03/13 05:19:20 [notice] 1#1: start worker process 23
+2023/03/13 05:19:20 [notice] 1#1: start worker process 24
+2023/03/13 05:19:20 [notice] 1#1: start worker process 25
+2023/03/13 05:19:20 [notice] 1#1: start worker process 26
+2023/03/13 05:19:20 [notice] 1#1: start worker process 27
+2023/03/13 05:19:20 [notice] 1#1: start worker process 28
+2023/03/13 05:42:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 05:42:54 [notice] 23#23: gracefully shutting down
+2023/03/13 05:42:54 [notice] 24#24: gracefully shutting down
+2023/03/13 05:42:54 [notice] 24#24: exiting
+2023/03/13 05:42:54 [notice] 27#27: gracefully shutting down
+2023/03/13 05:42:54 [notice] 27#27: exiting
+2023/03/13 05:42:54 [notice] 26#26: gracefully shutting down
+2023/03/13 05:42:54 [notice] 26#26: exiting
+2023/03/13 05:42:54 [notice] 25#25: gracefully shutting down
+2023/03/13 05:42:54 [notice] 25#25: exiting
+2023/03/13 05:42:54 [notice] 28#28: gracefully shutting down
+2023/03/13 05:42:54 [notice] 28#28: exiting
+2023/03/13 05:42:54 [notice] 23#23: exiting
+2023/03/13 05:42:54 [notice] 24#24: exit
+2023/03/13 05:42:54 [notice] 27#27: exit
+2023/03/13 05:42:54 [notice] 26#26: exit
+2023/03/13 05:42:54 [notice] 25#25: exit
+2023/03/13 05:42:54 [notice] 28#28: exit
+2023/03/13 05:42:54 [notice] 23#23: exit
+2023/03/13 05:42:54 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/13 05:42:54 [notice] 1#1: worker process 24 exited with code 0
+2023/03/13 05:42:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 05:42:54 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/13 05:42:54 [notice] 1#1: worker process 25 exited with code 0
+2023/03/13 05:42:54 [notice] 1#1: worker process 26 exited with code 0
+2023/03/13 05:42:54 [notice] 1#1: worker process 27 exited with code 0
+2023/03/13 05:42:54 [notice] 1#1: worker process 28 exited with code 0
+2023/03/13 05:42:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 05:42:54 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/13 05:42:54 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/13 05:42:54 [notice] 1#1: worker process 23 exited with code 0
+2023/03/13 05:42:54 [notice] 1#1: exit
+2023/03/13 05:44:17 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:19 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:20 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:22 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:24 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:26 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:31 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:38 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:44:52 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:45:19 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:46:11 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:47:12 [emerg] 1#1: invalid number of arguments in "listen" directive in /etc/nginx/conf.d/default.conf:2
+2023/03/13 05:57:35 [notice] 1#1: using the "epoll" event method
+2023/03/13 05:57:35 [notice] 1#1: nginx/1.21.5
+2023/03/13 05:57:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 05:57:35 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 05:57:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 05:57:35 [notice] 1#1: start worker processes
+2023/03/13 05:57:35 [notice] 1#1: start worker process 30
+2023/03/13 05:57:35 [notice] 1#1: start worker process 31
+2023/03/13 05:57:35 [notice] 1#1: start worker process 32
+2023/03/13 05:57:35 [notice] 1#1: start worker process 33
+2023/03/13 05:57:35 [notice] 1#1: start worker process 34
+2023/03/13 05:57:35 [notice] 1#1: start worker process 35
+2023/03/13 05:58:37 [error] 30#30: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/03/13 05:58:41 [error] 30#30: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/03/13 06:06:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:06:09 [notice] 30#30: gracefully shutting down
+2023/03/13 06:06:09 [notice] 30#30: exiting
+2023/03/13 06:06:09 [notice] 32#32: gracefully shutting down
+2023/03/13 06:06:09 [notice] 32#32: exiting
+2023/03/13 06:06:09 [notice] 35#35: gracefully shutting down
+2023/03/13 06:06:09 [notice] 35#35: exiting
+2023/03/13 06:06:09 [notice] 34#34: gracefully shutting down
+2023/03/13 06:06:09 [notice] 34#34: exiting
+2023/03/13 06:06:09 [notice] 31#31: gracefully shutting down
+2023/03/13 06:06:09 [notice] 31#31: exiting
+2023/03/13 06:06:09 [notice] 33#33: gracefully shutting down
+2023/03/13 06:06:09 [notice] 33#33: exiting
+2023/03/13 06:06:09 [notice] 30#30: exit
+2023/03/13 06:06:09 [notice] 32#32: exit
+2023/03/13 06:06:09 [notice] 35#35: exit
+2023/03/13 06:06:09 [notice] 34#34: exit
+2023/03/13 06:06:09 [notice] 31#31: exit
+2023/03/13 06:06:09 [notice] 33#33: exit
+2023/03/13 06:06:09 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/13 06:06:09 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 06:06:09 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 06:06:09 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 06:06:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:06:09 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/13 06:06:09 [notice] 1#1: worker process 30 exited with code 0
+2023/03/13 06:06:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:06:09 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/13 06:06:09 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 06:06:09 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 06:06:09 [notice] 1#1: exit
+2023/03/13 06:06:41 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:06:41 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:06:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:06:41 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:06:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:06:41 [notice] 1#1: start worker processes
+2023/03/13 06:06:41 [notice] 1#1: start worker process 30
+2023/03/13 06:06:41 [notice] 1#1: start worker process 31
+2023/03/13 06:06:41 [notice] 1#1: start worker process 32
+2023/03/13 06:06:41 [notice] 1#1: start worker process 33
+2023/03/13 06:06:41 [notice] 1#1: start worker process 34
+2023/03/13 06:06:41 [notice] 1#1: start worker process 35
+2023/03/13 06:09:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:09:36 [notice] 31#31: gracefully shutting down
+2023/03/13 06:09:36 [notice] 32#32: gracefully shutting down
+2023/03/13 06:09:36 [notice] 33#33: gracefully shutting down
+2023/03/13 06:09:36 [notice] 33#33: exiting
+2023/03/13 06:09:36 [notice] 34#34: gracefully shutting down
+2023/03/13 06:09:36 [notice] 34#34: exiting
+2023/03/13 06:09:36 [notice] 35#35: gracefully shutting down
+2023/03/13 06:09:36 [notice] 35#35: exiting
+2023/03/13 06:09:36 [notice] 30#30: gracefully shutting down
+2023/03/13 06:09:36 [notice] 30#30: exiting
+2023/03/13 06:09:36 [notice] 31#31: exiting
+2023/03/13 06:09:36 [notice] 32#32: exiting
+2023/03/13 06:09:36 [notice] 33#33: exit
+2023/03/13 06:09:36 [notice] 34#34: exit
+2023/03/13 06:09:36 [notice] 35#35: exit
+2023/03/13 06:09:36 [notice] 30#30: exit
+2023/03/13 06:09:36 [notice] 31#31: exit
+2023/03/13 06:09:36 [notice] 32#32: exit
+2023/03/13 06:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/13 06:09:36 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 06:09:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/13 06:09:36 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 06:09:36 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 06:09:36 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 06:09:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/13 06:09:36 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 06:09:36 [notice] 1#1: worker process 30 exited with code 0
+2023/03/13 06:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/13 06:09:36 [notice] 1#1: exit
+2023/03/13 06:09:43 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:09:43 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:09:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:09:43 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:09:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:09:43 [notice] 1#1: start worker processes
+2023/03/13 06:09:43 [notice] 1#1: start worker process 23
+2023/03/13 06:09:43 [notice] 1#1: start worker process 24
+2023/03/13 06:09:43 [notice] 1#1: start worker process 25
+2023/03/13 06:09:43 [notice] 1#1: start worker process 26
+2023/03/13 06:09:43 [notice] 1#1: start worker process 27
+2023/03/13 06:09:43 [notice] 1#1: start worker process 28
+2023/03/13 06:09:49 [error] 23#23: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:10:00 [error] 23#23: *2 open() "/var/www/anxinhuiyuan/anxinhuiyuan" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinhuiyuan HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:10:02 [error] 23#23: *2 open() "/var/www/anxinhuiyuan/anxinhuiyuan" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinhuiyuan HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:10:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:10:54 [notice] 23#23: gracefully shutting down
+2023/03/13 06:10:54 [notice] 24#24: gracefully shutting down
+2023/03/13 06:10:54 [notice] 24#24: exiting
+2023/03/13 06:10:54 [notice] 25#25: gracefully shutting down
+2023/03/13 06:10:54 [notice] 25#25: exiting
+2023/03/13 06:10:54 [notice] 26#26: gracefully shutting down
+2023/03/13 06:10:54 [notice] 26#26: exiting
+2023/03/13 06:10:54 [notice] 27#27: gracefully shutting down
+2023/03/13 06:10:54 [notice] 27#27: exiting
+2023/03/13 06:10:54 [notice] 28#28: gracefully shutting down
+2023/03/13 06:10:54 [notice] 28#28: exiting
+2023/03/13 06:10:54 [notice] 23#23: exiting
+2023/03/13 06:10:54 [notice] 23#23: exit
+2023/03/13 06:10:54 [notice] 24#24: exit
+2023/03/13 06:10:54 [notice] 25#25: exit
+2023/03/13 06:10:54 [notice] 26#26: exit
+2023/03/13 06:10:54 [notice] 27#27: exit
+2023/03/13 06:10:54 [notice] 28#28: exit
+2023/03/13 06:10:54 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/13 06:10:54 [notice] 1#1: worker process 23 exited with code 0
+2023/03/13 06:10:54 [notice] 1#1: worker process 24 exited with code 0
+2023/03/13 06:10:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:10:54 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/13 06:10:54 [notice] 1#1: worker process 25 exited with code 0
+2023/03/13 06:10:54 [notice] 1#1: worker process 26 exited with code 0
+2023/03/13 06:10:54 [notice] 1#1: worker process 27 exited with code 0
+2023/03/13 06:10:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:10:54 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/13 06:10:54 [notice] 1#1: worker process 28 exited with code 0
+2023/03/13 06:10:54 [notice] 1#1: exit
+2023/03/13 06:10:58 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:10:58 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:10:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:10:58 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:10:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:10:58 [notice] 1#1: start worker processes
+2023/03/13 06:10:58 [notice] 1#1: start worker process 22
+2023/03/13 06:10:58 [notice] 1#1: start worker process 23
+2023/03/13 06:10:58 [notice] 1#1: start worker process 24
+2023/03/13 06:10:58 [notice] 1#1: start worker process 25
+2023/03/13 06:10:58 [notice] 1#1: start worker process 26
+2023/03/13 06:10:58 [notice] 1#1: start worker process 27
+2023/03/13 06:11:00 [error] 22#22: *1 open() "/var/www/anxin-vip/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:02 [error] 22#22: *1 open() "/var/www/anxin-vip/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:04 [error] 22#22: *1 open() "/var/www/anxin-vip/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:06 [error] 22#22: *1 open() "/var/www/anxin-vip/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:13 [error] 22#22: *1 open() "/var/www/anxin-vip/anxin-vip/index.html" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip/index.html HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:17 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:17 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:21 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:37 [error] 22#22: *1 open() "/var/www/anxin-vip/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:40 [error] 22#22: *1 "/var/www/anxin-vip/anxin-vip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip/ HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:11:42 [error] 22#22: *1 "/var/www/anxin-vip/anxin-vip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip/ HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:14:31 [error] 22#22: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:14:31 [error] 22#22: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:14:33 [error] 22#22: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:14:35 [error] 22#22: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:14:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:14:59 [notice] 23#23: gracefully shutting down
+2023/03/13 06:14:59 [notice] 24#24: gracefully shutting down
+2023/03/13 06:14:59 [notice] 24#24: exiting
+2023/03/13 06:14:59 [notice] 25#25: gracefully shutting down
+2023/03/13 06:14:59 [notice] 26#26: gracefully shutting down
+2023/03/13 06:14:59 [notice] 22#22: gracefully shutting down
+2023/03/13 06:14:59 [notice] 22#22: exiting
+2023/03/13 06:14:59 [notice] 27#27: gracefully shutting down
+2023/03/13 06:14:59 [notice] 27#27: exiting
+2023/03/13 06:14:59 [notice] 24#24: exit
+2023/03/13 06:14:59 [notice] 25#25: exiting
+2023/03/13 06:14:59 [notice] 26#26: exiting
+2023/03/13 06:14:59 [notice] 26#26: exit
+2023/03/13 06:14:59 [notice] 22#22: exit
+2023/03/13 06:14:59 [notice] 27#27: exit
+2023/03/13 06:14:59 [notice] 25#25: exit
+2023/03/13 06:14:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/13 06:14:59 [notice] 1#1: worker process 24 exited with code 0
+2023/03/13 06:14:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:14:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/13 06:14:59 [notice] 1#1: worker process 22 exited with code 0
+2023/03/13 06:14:59 [notice] 1#1: worker process 26 exited with code 0
+2023/03/13 06:14:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:14:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/13 06:14:59 [notice] 1#1: worker process 25 exited with code 0
+2023/03/13 06:14:59 [notice] 1#1: worker process 27 exited with code 0
+2023/03/13 06:14:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:15:19 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:15:19 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:15:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:15:19 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:15:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:15:19 [notice] 1#1: start worker processes
+2023/03/13 06:15:19 [notice] 1#1: start worker process 24
+2023/03/13 06:15:19 [notice] 1#1: start worker process 25
+2023/03/13 06:15:19 [notice] 1#1: start worker process 26
+2023/03/13 06:15:19 [notice] 1#1: start worker process 27
+2023/03/13 06:15:19 [notice] 1#1: start worker process 28
+2023/03/13 06:15:19 [notice] 1#1: start worker process 29
+2023/03/13 06:15:22 [error] 24#24: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:23 [error] 24#24: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:23 [error] 24#24: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:24 [error] 24#24: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:24 [error] 24#24: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:32 [error] 24#24: *1 "/var/www/anxin-vip/anxin-vip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip/ HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:34 [error] 24#24: *1 "/var/www/anxin-vip/anxin-vip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip/ HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:36 [error] 24#24: *1 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:37 [error] 24#24: *1 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:38 [error] 24#24: *1 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:44 [error] 24#24: *1 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:15:55 [error] 24#24: *1 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:17:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:17:02 [notice] 24#24: gracefully shutting down
+2023/03/13 06:17:02 [notice] 24#24: exiting
+2023/03/13 06:17:02 [notice] 27#27: gracefully shutting down
+2023/03/13 06:17:02 [notice] 25#25: gracefully shutting down
+2023/03/13 06:17:02 [notice] 25#25: exiting
+2023/03/13 06:17:02 [notice] 28#28: gracefully shutting down
+2023/03/13 06:17:02 [notice] 26#26: gracefully shutting down
+2023/03/13 06:17:02 [notice] 29#29: gracefully shutting down
+2023/03/13 06:17:02 [notice] 29#29: exiting
+2023/03/13 06:17:02 [notice] 24#24: exit
+2023/03/13 06:17:02 [notice] 27#27: exiting
+2023/03/13 06:17:02 [notice] 25#25: exit
+2023/03/13 06:17:02 [notice] 28#28: exiting
+2023/03/13 06:17:02 [notice] 28#28: exit
+2023/03/13 06:17:02 [notice] 26#26: exiting
+2023/03/13 06:17:02 [notice] 29#29: exit
+2023/03/13 06:17:02 [notice] 27#27: exit
+2023/03/13 06:17:02 [notice] 26#26: exit
+2023/03/13 06:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/13 06:17:02 [notice] 1#1: worker process 24 exited with code 0
+2023/03/13 06:17:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/13 06:17:02 [notice] 1#1: worker process 25 exited with code 0
+2023/03/13 06:17:02 [notice] 1#1: worker process 28 exited with code 0
+2023/03/13 06:17:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/13 06:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/13 06:17:02 [notice] 1#1: worker process 26 exited with code 0
+2023/03/13 06:17:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/13 06:17:02 [notice] 1#1: worker process 27 exited with code 0
+2023/03/13 06:17:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/13 06:17:02 [notice] 1#1: worker process 29 exited with code 0
+2023/03/13 06:17:02 [notice] 1#1: exit
+2023/03/13 06:17:08 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:17:08 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:17:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:17:08 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:17:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:17:08 [notice] 1#1: start worker processes
+2023/03/13 06:17:08 [notice] 1#1: start worker process 23
+2023/03/13 06:17:08 [notice] 1#1: start worker process 24
+2023/03/13 06:17:08 [notice] 1#1: start worker process 25
+2023/03/13 06:17:08 [notice] 1#1: start worker process 26
+2023/03/13 06:17:08 [notice] 1#1: start worker process 27
+2023/03/13 06:17:08 [notice] 1#1: start worker process 28
+2023/03/13 06:17:36 [error] 23#23: *2 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:17:36 [error] 23#23: *2 open() "/etc/nginx/html/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:17:42 [error] 23#23: *2 open() "/etc/nginx/html/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:18:17 [error] 23#23: *2 open() "/etc/nginx/html/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:18:21 [error] 23#23: *2 open() "/etc/nginx/html/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:35:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:35:33 [notice] 23#23: gracefully shutting down
+2023/03/13 06:35:33 [notice] 23#23: exiting
+2023/03/13 06:35:33 [notice] 24#24: gracefully shutting down
+2023/03/13 06:35:33 [notice] 24#24: exiting
+2023/03/13 06:35:33 [notice] 25#25: gracefully shutting down
+2023/03/13 06:35:33 [notice] 25#25: exiting
+2023/03/13 06:35:33 [notice] 27#27: gracefully shutting down
+2023/03/13 06:35:33 [notice] 27#27: exiting
+2023/03/13 06:35:33 [notice] 26#26: gracefully shutting down
+2023/03/13 06:35:33 [notice] 26#26: exiting
+2023/03/13 06:35:33 [notice] 28#28: gracefully shutting down
+2023/03/13 06:35:33 [notice] 23#23: exit
+2023/03/13 06:35:33 [notice] 24#24: exit
+2023/03/13 06:35:33 [notice] 25#25: exit
+2023/03/13 06:35:33 [notice] 27#27: exit
+2023/03/13 06:35:33 [notice] 26#26: exit
+2023/03/13 06:35:33 [notice] 28#28: exiting
+2023/03/13 06:35:33 [notice] 28#28: exit
+2023/03/13 06:35:33 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/13 06:35:33 [notice] 1#1: worker process 23 exited with code 0
+2023/03/13 06:35:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:35:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/13 06:35:33 [notice] 1#1: worker process 24 exited with code 0
+2023/03/13 06:35:33 [notice] 1#1: worker process 25 exited with code 0
+2023/03/13 06:35:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:35:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/13 06:35:33 [notice] 1#1: worker process 26 exited with code 0
+2023/03/13 06:35:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:35:33 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/13 06:35:33 [notice] 1#1: worker process 27 exited with code 0
+2023/03/13 06:35:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:35:33 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/13 06:35:33 [notice] 1#1: worker process 28 exited with code 0
+2023/03/13 06:35:33 [notice] 1#1: exit
+2023/03/13 06:35:55 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:35:55 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:35:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:35:55 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:35:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:35:55 [notice] 1#1: start worker processes
+2023/03/13 06:35:55 [notice] 1#1: start worker process 22
+2023/03/13 06:35:55 [notice] 1#1: start worker process 23
+2023/03/13 06:35:55 [notice] 1#1: start worker process 24
+2023/03/13 06:35:55 [notice] 1#1: start worker process 25
+2023/03/13 06:35:55 [notice] 1#1: start worker process 26
+2023/03/13 06:35:55 [notice] 1#1: start worker process 27
+2023/03/13 06:36:00 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:36:11 [error] 22#22: *1 open() "/var/www/anxinVip/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost:8080"
+2023/03/13 06:37:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:37:39 [notice] 22#22: gracefully shutting down
+2023/03/13 06:37:39 [notice] 22#22: exiting
+2023/03/13 06:37:39 [notice] 23#23: gracefully shutting down
+2023/03/13 06:37:39 [notice] 23#23: exiting
+2023/03/13 06:37:39 [notice] 24#24: gracefully shutting down
+2023/03/13 06:37:39 [notice] 24#24: exiting
+2023/03/13 06:37:39 [notice] 25#25: gracefully shutting down
+2023/03/13 06:37:39 [notice] 25#25: exiting
+2023/03/13 06:37:39 [notice] 26#26: gracefully shutting down
+2023/03/13 06:37:39 [notice] 26#26: exiting
+2023/03/13 06:37:39 [notice] 27#27: gracefully shutting down
+2023/03/13 06:37:39 [notice] 27#27: exiting
+2023/03/13 06:37:39 [notice] 22#22: exit
+2023/03/13 06:37:39 [notice] 23#23: exit
+2023/03/13 06:37:39 [notice] 24#24: exit
+2023/03/13 06:37:39 [notice] 25#25: exit
+2023/03/13 06:37:39 [notice] 26#26: exit
+2023/03/13 06:37:39 [notice] 27#27: exit
+2023/03/13 06:37:39 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/13 06:37:39 [notice] 1#1: worker process 27 exited with code 0
+2023/03/13 06:37:39 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:37:39 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/13 06:37:39 [notice] 1#1: worker process 26 exited with code 0
+2023/03/13 06:37:39 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:37:39 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/13 06:37:39 [notice] 1#1: worker process 25 exited with code 0
+2023/03/13 06:37:39 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:37:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/13 06:37:39 [notice] 1#1: worker process 22 exited with code 0
+2023/03/13 06:37:39 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:37:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/13 06:37:39 [notice] 1#1: worker process 23 exited with code 0
+2023/03/13 06:37:39 [notice] 1#1: worker process 24 exited with code 0
+2023/03/13 06:37:39 [notice] 1#1: exit
+2023/03/13 06:37:43 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:37:43 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:37:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:37:43 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:37:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:37:43 [notice] 1#1: start worker processes
+2023/03/13 06:37:43 [notice] 1#1: start worker process 30
+2023/03/13 06:37:43 [notice] 1#1: start worker process 31
+2023/03/13 06:37:43 [notice] 1#1: start worker process 32
+2023/03/13 06:37:43 [notice] 1#1: start worker process 33
+2023/03/13 06:37:43 [notice] 1#1: start worker process 34
+2023/03/13 06:37:43 [notice] 1#1: start worker process 35
+2023/03/13 06:39:42 [error] 30#30: *3 open() "/var/www/anxinVip/1" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/1 HTTP/1.1", host: "localhost"
+2023/03/13 06:41:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 06:41:08 [notice] 32#32: gracefully shutting down
+2023/03/13 06:41:08 [notice] 32#32: exiting
+2023/03/13 06:41:08 [notice] 31#31: gracefully shutting down
+2023/03/13 06:41:08 [notice] 34#34: gracefully shutting down
+2023/03/13 06:41:08 [notice] 34#34: exiting
+2023/03/13 06:41:08 [notice] 35#35: gracefully shutting down
+2023/03/13 06:41:08 [notice] 35#35: exiting
+2023/03/13 06:41:08 [notice] 30#30: gracefully shutting down
+2023/03/13 06:41:08 [notice] 30#30: exiting
+2023/03/13 06:41:08 [notice] 33#33: gracefully shutting down
+2023/03/13 06:41:08 [notice] 32#32: exit
+2023/03/13 06:41:08 [notice] 31#31: exiting
+2023/03/13 06:41:08 [notice] 34#34: exit
+2023/03/13 06:41:08 [notice] 35#35: exit
+2023/03/13 06:41:08 [notice] 30#30: exit
+2023/03/13 06:41:08 [notice] 33#33: exiting
+2023/03/13 06:41:08 [notice] 33#33: exit
+2023/03/13 06:41:08 [notice] 31#31: exit
+2023/03/13 06:41:08 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/13 06:41:08 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 06:41:08 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 06:41:08 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 06:41:08 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 06:41:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:41:08 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/13 06:41:08 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 06:41:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 06:41:08 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/13 06:41:08 [notice] 1#1: worker process 30 exited with code 0
+2023/03/13 06:41:08 [notice] 1#1: exit
+2023/03/13 06:41:15 [notice] 1#1: using the "epoll" event method
+2023/03/13 06:41:15 [notice] 1#1: nginx/1.21.5
+2023/03/13 06:41:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 06:41:15 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 06:41:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 06:41:15 [notice] 1#1: start worker processes
+2023/03/13 06:41:15 [notice] 1#1: start worker process 31
+2023/03/13 06:41:15 [notice] 1#1: start worker process 32
+2023/03/13 06:41:15 [notice] 1#1: start worker process 33
+2023/03/13 06:41:15 [notice] 1#1: start worker process 34
+2023/03/13 06:41:15 [notice] 1#1: start worker process 35
+2023/03/13 06:41:15 [notice] 1#1: start worker process 36
+2023/03/13 06:41:15 [error] 32#32: *2 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 06:41:16 [error] 32#32: *2 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 06:41:16 [error] 32#32: *2 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 06:41:17 [error] 32#32: *2 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 06:41:18 [error] 32#32: *2 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 06:41:29 [error] 31#31: *3 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 06:41:32 [error] 31#31: *3 open() "/var/www/anxinVip/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost"
+2023/03/13 06:41:34 [error] 31#31: *3 open() "/var/www/anxinVip/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost"
+2023/03/13 06:41:36 [error] 31#31: *3 open() "/var/www/anxinVip/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost"
+2023/03/13 06:41:38 [error] 31#31: *3 open() "/var/www/anxinVip/anxinVip" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /anxinVip HTTP/1.1", host: "localhost"
+2023/03/13 07:28:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 07:28:52 [notice] 31#31: gracefully shutting down
+2023/03/13 07:28:52 [notice] 35#35: gracefully shutting down
+2023/03/13 07:28:52 [notice] 36#36: gracefully shutting down
+2023/03/13 07:28:52 [notice] 33#33: gracefully shutting down
+2023/03/13 07:28:52 [notice] 32#32: gracefully shutting down
+2023/03/13 07:28:52 [notice] 34#34: gracefully shutting down
+2023/03/13 07:28:52 [notice] 31#31: exiting
+2023/03/13 07:28:52 [notice] 33#33: exiting
+2023/03/13 07:28:52 [notice] 35#35: exiting
+2023/03/13 07:28:52 [notice] 36#36: exiting
+2023/03/13 07:28:52 [notice] 32#32: exiting
+2023/03/13 07:28:52 [notice] 32#32: exit
+2023/03/13 07:28:52 [notice] 31#31: exit
+2023/03/13 07:28:52 [notice] 34#34: exiting
+2023/03/13 07:28:52 [notice] 34#34: exit
+2023/03/13 07:28:52 [notice] 33#33: exit
+2023/03/13 07:28:52 [notice] 35#35: exit
+2023/03/13 07:28:52 [notice] 36#36: exit
+2023/03/13 07:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/13 07:28:52 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 07:28:52 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 07:28:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/13 07:28:52 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 07:28:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/13 07:28:52 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 07:28:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/13 07:28:52 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 07:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/03/13 07:28:52 [notice] 1#1: worker process 36 exited with code 0
+2023/03/13 07:28:52 [notice] 1#1: exit
+2023/03/13 07:29:34 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:36 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:37 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:39 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:41 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:43 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:48 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:54 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:55 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:56 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:29:58 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:00 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:03 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:07 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:15 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:29 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:58 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:30:59 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:01 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:03 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:05 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:07 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:12 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:22 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:23 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:25 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:26 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:28 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:31 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:36 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:47 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:48 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:50 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:52 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:53 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:31:56 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:32:01 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:32:08 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:32:22 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:32:49 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:30
+2023/03/13 07:33:36 [notice] 1#1: using the "epoll" event method
+2023/03/13 07:33:36 [notice] 1#1: nginx/1.21.5
+2023/03/13 07:33:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 07:33:36 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 07:33:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 07:33:36 [notice] 1#1: start worker processes
+2023/03/13 07:33:36 [notice] 1#1: start worker process 31
+2023/03/13 07:33:36 [notice] 1#1: start worker process 32
+2023/03/13 07:33:36 [notice] 1#1: start worker process 33
+2023/03/13 07:33:36 [notice] 1#1: start worker process 34
+2023/03/13 07:33:36 [notice] 1#1: start worker process 35
+2023/03/13 07:33:36 [notice] 1#1: start worker process 36
+2023/03/13 07:33:48 [error] 31#31: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 07:35:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 07:35:19 [notice] 32#32: gracefully shutting down
+2023/03/13 07:35:19 [notice] 32#32: exiting
+2023/03/13 07:35:19 [notice] 33#33: gracefully shutting down
+2023/03/13 07:35:19 [notice] 33#33: exiting
+2023/03/13 07:35:19 [notice] 36#36: gracefully shutting down
+2023/03/13 07:35:19 [notice] 36#36: exiting
+2023/03/13 07:35:19 [notice] 35#35: gracefully shutting down
+2023/03/13 07:35:19 [notice] 31#31: gracefully shutting down
+2023/03/13 07:35:19 [notice] 31#31: exiting
+2023/03/13 07:35:19 [notice] 34#34: gracefully shutting down
+2023/03/13 07:35:19 [notice] 32#32: exit
+2023/03/13 07:35:19 [notice] 33#33: exit
+2023/03/13 07:35:19 [notice] 36#36: exit
+2023/03/13 07:35:19 [notice] 35#35: exiting
+2023/03/13 07:35:19 [notice] 31#31: exit
+2023/03/13 07:35:19 [notice] 34#34: exiting
+2023/03/13 07:35:19 [notice] 35#35: exit
+2023/03/13 07:35:19 [notice] 34#34: exit
+2023/03/13 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/03/13 07:35:19 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 07:35:19 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 07:35:19 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 07:35:19 [notice] 1#1: worker process 36 exited with code 0
+2023/03/13 07:35:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:35:19 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/13 07:35:19 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 07:35:19 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 07:35:19 [notice] 1#1: exit
+2023/03/13 07:35:25 [notice] 1#1: using the "epoll" event method
+2023/03/13 07:35:25 [notice] 1#1: nginx/1.21.5
+2023/03/13 07:35:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 07:35:25 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 07:35:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 07:35:25 [notice] 1#1: start worker processes
+2023/03/13 07:35:25 [notice] 1#1: start worker process 30
+2023/03/13 07:35:25 [notice] 1#1: start worker process 31
+2023/03/13 07:35:25 [notice] 1#1: start worker process 32
+2023/03/13 07:35:25 [notice] 1#1: start worker process 33
+2023/03/13 07:35:25 [notice] 1#1: start worker process 34
+2023/03/13 07:35:25 [notice] 1#1: start worker process 35
+2023/03/13 07:35:38 [error] 30#30: *1 directory index of "/var/www" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "localhost"
+2023/03/13 07:35:41 [error] 30#30: *2 directory index of "/var/www" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 07:35:42 [error] 30#30: *2 directory index of "/var/www" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/03/13 07:37:31 [error] 30#30: *3 directory index of "/var/www" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "www.anxinvip.com"
+2023/03/13 07:37:31 [error] 30#30: *3 open() "/var/wwwfavicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /favicon.ico HTTP/1.1", host: "www.anxinvip.com", referrer: "http://www.anxinvip.com/"
+2023/03/13 07:37:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 07:37:47 [notice] 30#30: gracefully shutting down
+2023/03/13 07:37:47 [notice] 31#31: gracefully shutting down
+2023/03/13 07:37:47 [notice] 31#31: exiting
+2023/03/13 07:37:47 [notice] 32#32: gracefully shutting down
+2023/03/13 07:37:47 [notice] 32#32: exiting
+2023/03/13 07:37:47 [notice] 33#33: gracefully shutting down
+2023/03/13 07:37:47 [notice] 33#33: exiting
+2023/03/13 07:37:47 [notice] 35#35: gracefully shutting down
+2023/03/13 07:37:47 [notice] 35#35: exiting
+2023/03/13 07:37:47 [notice] 34#34: gracefully shutting down
+2023/03/13 07:37:47 [notice] 30#30: exiting
+2023/03/13 07:37:47 [notice] 30#30: exit
+2023/03/13 07:37:47 [notice] 31#31: exit
+2023/03/13 07:37:47 [notice] 32#32: exit
+2023/03/13 07:37:47 [notice] 33#33: exit
+2023/03/13 07:37:47 [notice] 35#35: exit
+2023/03/13 07:37:47 [notice] 34#34: exiting
+2023/03/13 07:37:47 [notice] 34#34: exit
+2023/03/13 07:37:47 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/13 07:37:47 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 07:37:47 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 07:37:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:37:47 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/13 07:37:47 [notice] 1#1: worker process 30 exited with code 0
+2023/03/13 07:37:47 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 07:37:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:37:47 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/13 07:37:47 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 07:37:47 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 07:37:47 [notice] 1#1: exit
+2023/03/13 07:38:07 [notice] 1#1: using the "epoll" event method
+2023/03/13 07:38:07 [notice] 1#1: nginx/1.21.5
+2023/03/13 07:38:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 07:38:07 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 07:38:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 07:38:07 [notice] 1#1: start worker processes
+2023/03/13 07:38:07 [notice] 1#1: start worker process 30
+2023/03/13 07:38:07 [notice] 1#1: start worker process 31
+2023/03/13 07:38:07 [notice] 1#1: start worker process 32
+2023/03/13 07:38:07 [notice] 1#1: start worker process 33
+2023/03/13 07:38:07 [notice] 1#1: start worker process 34
+2023/03/13 07:38:07 [notice] 1#1: start worker process 35
+2023/03/13 07:38:08 [error] 30#30: *1 directory index of "/var/www/anxinVip" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "www.anxinvip.com"
+2023/03/13 07:38:10 [error] 30#30: *1 directory index of "/var/www/anxinVip" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "www.anxinvip.com"
+2023/03/13 07:38:11 [error] 30#30: *1 directory index of "/var/www/anxinVip" is forbidden, client: 172.19.0.1, server: www.anxinvip.com, request: "GET / HTTP/1.1", host: "www.anxinvip.com"
+2023/03/13 07:38:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 07:38:35 [notice] 30#30: gracefully shutting down
+2023/03/13 07:38:35 [notice] 33#33: gracefully shutting down
+2023/03/13 07:38:35 [notice] 33#33: exiting
+2023/03/13 07:38:35 [notice] 31#31: gracefully shutting down
+2023/03/13 07:38:35 [notice] 31#31: exiting
+2023/03/13 07:38:35 [notice] 35#35: gracefully shutting down
+2023/03/13 07:38:35 [notice] 32#32: gracefully shutting down
+2023/03/13 07:38:35 [notice] 32#32: exiting
+2023/03/13 07:38:35 [notice] 34#34: gracefully shutting down
+2023/03/13 07:38:35 [notice] 34#34: exiting
+2023/03/13 07:38:35 [notice] 30#30: exiting
+2023/03/13 07:38:35 [notice] 33#33: exit
+2023/03/13 07:38:35 [notice] 31#31: exit
+2023/03/13 07:38:35 [notice] 35#35: exiting
+2023/03/13 07:38:35 [notice] 32#32: exit
+2023/03/13 07:38:35 [notice] 34#34: exit
+2023/03/13 07:38:35 [notice] 30#30: exit
+2023/03/13 07:38:35 [notice] 35#35: exit
+2023/03/13 07:38:35 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/13 07:38:35 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 07:38:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:38:35 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/13 07:38:35 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 07:38:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:38:35 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/13 07:38:35 [notice] 1#1: worker process 30 exited with code 0
+2023/03/13 07:38:35 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 07:38:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:38:35 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/13 07:38:35 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 07:38:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 07:38:35 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/13 07:38:35 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 07:38:35 [notice] 1#1: exit
+2023/03/13 07:39:04 [notice] 1#1: using the "epoll" event method
+2023/03/13 07:39:04 [notice] 1#1: nginx/1.21.5
+2023/03/13 07:39:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 07:39:04 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 07:39:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 07:39:04 [notice] 1#1: start worker processes
+2023/03/13 07:39:04 [notice] 1#1: start worker process 30
+2023/03/13 07:39:04 [notice] 1#1: start worker process 31
+2023/03/13 07:39:04 [notice] 1#1: start worker process 32
+2023/03/13 07:39:04 [notice] 1#1: start worker process 33
+2023/03/13 07:39:04 [notice] 1#1: start worker process 34
+2023/03/13 07:39:04 [notice] 1#1: start worker process 35
+2023/03/13 08:02:11 [error] 30#30: *4 "/var/www/anxinVip/anxinVip/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /anxinVip/ HTTP/1.1", host: "localhost"
+2023/03/13 08:02:11 [error] 30#30: *4 open() "/var/www/anxinVip/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/anxinVip/"
+2023/03/13 08:04:56 [error] 30#30: *7 open() "/var/www/anxinVip/anxin-vip" failed (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /anxin-vip HTTP/1.1", host: "localhost:8080"
+2023/03/13 08:04:56 [error] 30#30: *7 open() "/var/www/anxinVip/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/anxin-vip"
+2023/03/13 08:30:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/13 08:30:28 [notice] 31#31: gracefully shutting down
+2023/03/13 08:30:28 [notice] 30#30: gracefully shutting down
+2023/03/13 08:30:28 [notice] 32#32: gracefully shutting down
+2023/03/13 08:30:28 [notice] 34#34: gracefully shutting down
+2023/03/13 08:30:28 [notice] 35#35: gracefully shutting down
+2023/03/13 08:30:28 [notice] 33#33: gracefully shutting down
+2023/03/13 08:30:28 [notice] 31#31: exiting
+2023/03/13 08:30:28 [notice] 30#30: exiting
+2023/03/13 08:30:28 [notice] 32#32: exiting
+2023/03/13 08:30:28 [notice] 34#34: exiting
+2023/03/13 08:30:28 [notice] 35#35: exiting
+2023/03/13 08:30:28 [notice] 33#33: exiting
+2023/03/13 08:30:28 [notice] 31#31: exit
+2023/03/13 08:30:28 [notice] 30#30: exit
+2023/03/13 08:30:28 [notice] 32#32: exit
+2023/03/13 08:30:28 [notice] 34#34: exit
+2023/03/13 08:30:28 [notice] 35#35: exit
+2023/03/13 08:30:28 [notice] 33#33: exit
+2023/03/13 08:30:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/13 08:30:28 [notice] 1#1: worker process 30 exited with code 0
+2023/03/13 08:30:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 08:30:28 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/13 08:30:28 [notice] 1#1: worker process 32 exited with code 0
+2023/03/13 08:30:28 [notice] 1#1: worker process 31 exited with code 0
+2023/03/13 08:30:28 [notice] 1#1: worker process 34 exited with code 0
+2023/03/13 08:30:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/13 08:30:28 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/13 08:30:28 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/13 08:30:28 [notice] 1#1: worker process 33 exited with code 0
+2023/03/13 08:30:28 [notice] 1#1: worker process 35 exited with code 0
+2023/03/13 08:30:28 [notice] 1#1: exit
+2023/03/13 09:42:18 [notice] 1#1: using the "epoll" event method
+2023/03/13 09:42:18 [notice] 1#1: nginx/1.21.5
+2023/03/13 09:42:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/13 09:42:18 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2023/03/13 09:42:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/13 09:42:18 [notice] 1#1: start worker processes
+2023/03/13 09:42:18 [notice] 1#1: start worker process 23
+2023/03/13 09:42:18 [notice] 1#1: start worker process 24
+2023/03/13 09:42:18 [notice] 1#1: start worker process 25
+2023/03/13 09:42:18 [notice] 1#1: start worker process 26
+2023/03/13 09:42:18 [notice] 1#1: start worker process 27
+2023/03/13 09:42:18 [notice] 1#1: start worker process 28
+2023/03/13 09:43:49 [error] 24#24: *5 open() "/var/www/anxinVip/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /favicon.ico HTTP/1.1", host: "www.anxinvip.com", referrer: "http://www.anxinvip.com/"
+2023/03/13 10:08:05 [error] 24#24: *18 open() "/var/www/anxinVip/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: www.anxinvip.com, request: "GET /favicon.ico HTTP/1.1", host: "www.anxinvip.com", referrer: "http://www.anxinvip.com/"
+2023/03/13 19:18:27 [notice] 1#1: signal 15 (SIGTERM) received, exiting

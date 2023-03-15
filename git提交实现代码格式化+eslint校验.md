@@ -122,3 +122,40 @@
       "src/*": "eslint --ext .js,.ts,.tsx"  //进行eslint校验
     }
 ```
+
+## Git commit 规范
+
+> git commit 规范主要可以帮助开发人员在 code review 期间更容易理解提交的内容，现在大部分主流 commit 规范都是基于 Angular 团队的规范而衍生出来的，它的 message 格式如下：
+
+```shell
+ <type>(<scope>): <subject>
+ <BLANK LINE>
+ <body>
+ <BLANK LINE>
+ <footer>
+```
+
+type 主要有以下几种类型：
+
+- feat: 一个新特性
+- fix: 修复 bug
+- docs: 文档修改
+- - style: 不影响代码含义的更改（空格、格式、缺少分号等）
+- refactor: 代码重构
+- perf: 优化性能
+- test: 测试用例修改
+- chore: 对构建过程或辅助工具和库的更改，例如文档生成
+
+- scope：可以是影响范围的任何内容。
+- subject：包含对更改的简洁描述，规则：
+  - 使用陈述语句
+  - 第一个字母不要大写
+  - 末尾没有点 (.)
+- body：commit 具体修改内容, 可以分为多行，应该包括改变的动机，并与以前的行为进行对比。
+- footer: 一些备注, 通常是修复的 bug 的链接。
+
+1. 安装 commitlint cli 和 conventional config
+
+```js
+npm install --save-dev @commitlint/{config-conventional,cli}
+```

@@ -1,4 +1,6 @@
-const a = "3223";
-const b = "3223";
-const n = "3223";
-const m = "3223";
+const a: number = 2
+
+const b: string = '12'
+
+console.log(a)
+console.log(b)

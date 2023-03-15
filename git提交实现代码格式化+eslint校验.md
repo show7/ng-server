@@ -1,4 +1,4 @@
-# git hook 实现 prettier+eslint 校验+commit 规范 接入方案
+# prettier+eslint 校验+commit 规范 接入方案
 
 ## 代码格式化规范配置
 
@@ -123,6 +123,30 @@
     }
 ```
 
+## prettier 与 eslint 冲突解决
+
+- eslint 与 prettier 应该各司其职。eslint 负责我们的代码质量，prettier 负责我们的代码格式。但是在使用的过程中会发现，由于我们开启了自动化的 eslint 修复与自动化的根据 prettier 来格式化代码。所以我们已保存代码，会出现屏幕闪一起后又恢复到了报错的状态。
+- 这其中的根本原因就是 eslint 有部分规则与 prettier 冲突了，所以保存的时候显示运行了 eslint 的修复命令，然后再运行 prettier 格式化，所以就会出现屏幕闪一下然后又恢复到报错的现象。这时候你可以检查一下是否存在冲突的规则。
+- 查阅资料会发现，社区已经为我们提供了一个非常成熟的方案，即 **eslint-config-prettier** + **eslint-plugin-prettier**。
+
+```sh
+  npm i eslint-plugin-prettier eslint-config-prettier -D
+```
+
+- 在.eslintrc.js 中 extends 的最后添加一个配置: **plugin:prettier/recommended**
+
+```js
+  module.exports = {
+  ...
+  extends: [
+    'standard-with-typescript',
+    + // 必须放在最后面
+    + 'plugin:prettier/recommended'
+  ],
+  ...
+}
+```
+
 ## Git commit 规范
 
 > git commit 规范主要可以帮助开发人员在 code review 期间更容易理解提交的内容，现在大部分主流 commit 规范都是基于 Angular 团队的规范而衍生出来的，它的 message 格式如下：
@@ -140,7 +164,7 @@ type 主要有以下几种类型：
 - feat: 一个新特性
 - fix: 修复 bug
 - docs: 文档修改
-- - style: 不影响代码含义的更改（空格、格式、缺少分号等）
+- style: 不影响代码含义的更改（空格、格式、缺少分号等）
 - refactor: 代码重构
 - perf: 优化性能
 - test: 测试用例修改
